@@ -1,0 +1,171 @@
+<!DOCTYPE HTML>
+<html lang="es">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="../../assets/css/styles.css" />
+  <link rel="stylesheet" href="../../assets/css/project.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="../../assets/css/waitMe.min.css">
+  <link rel="shortcut icon" href="../../assets/images/letraR.ico" type="image/x-icon">
+
+  <title>Proyecto</title>
+</head>
+
+<body>
+  <div class="container">
+    <header id="header-habilidades">
+      <input type="checkbox" id="icono-menu">
+      <label for="icono-menu">
+        <img src="../../assets/images/icono_menu.png" alt="icono" width="50" />
+      </label>
+    </header>
+
+    <nav id="menu">
+      <img src="../../assets/images/fondo.jpg">
+      <ul>
+        <div id="menu-items">
+          <li><a href="../../index.html">Inicio</a></li>
+          <li><a href="./../sobreMi.html">Sobre mi</a></li>
+          <li><a href="./../portafolio.html">Portafolio</a></li>
+          <li><a href="./../habilidades.html">Habilidades</a></li>
+          <li><a href="./../contacto.html">Contacto</a></li>
+        </div>
+      </ul>
+    </nav>
+
+    <div id="contenedor">
+      <div class='titulos'>
+        <h2>
+          <a href="../../index.html">Inicio</a>
+        </h2>
+        <h3>
+          <a href="../../views/portafolio.html">Portafolio</a>
+        </h3>
+      </div>
+
+    </div>
+  </div>
+  <div class='clearfix'></div>
+
+  <div class="project">
+    <div id="slider_princ">
+      <div id="slider_sec">
+        <div class="img"><img src="../../assets/images/projects/ibpr_web/1.jpg" id="img_1"></div>
+        <div class="img"><img src="../../assets/images/projects/ibpr_web/2.jpg" id="img_2"></div>
+        <div class="img"><img src="../../assets/images/projects/ibpr_web/3.jpg" id="img_3"></div>
+      </div>
+    </div>
+
+    <div class="des_project">
+      <h3>Iglesia Bautista Panambi Reta</h3>
+
+      <div class="detalles">
+        <section>
+          <span>Descripción: </span>
+          <label>
+            Página Oficial de la Iglesia Evangélica Bautista Panambí Reta
+          </label>
+        </section>
+
+        <section>
+          <span>Cliente: </span>
+          <label id="cliente">Iglesia Bautista Panambí Reta</label>
+        </section>
+
+        <section>
+          <span>Sitio: </span>
+          <label id="sitio-project"><a href='https://panambireta.herokuapp.com'
+              target="_blank">panambireta.herokuapp.com</a></label>
+        </section>
+
+        <section>
+          <span>Completado: </span>
+          <label id="completado">75%</label>
+        </section>
+
+        <section>
+          <span>Herramientas: </span>
+          <label id="project-herr">Bootstrap, JQuery</label>
+        </section>
+
+      </div>
+    </div>
+  </div>
+
+  <div class='clearfix'></div>
+
+  <div class="apartados">
+
+    <!--Tecnologias conocidas-->
+    <div id="tecnologias">
+      <div class='titulos'>
+        <h2>Tecnologías</h2>
+      </div>
+      <div class="iconos-tecnologia">
+        <div class="icons-tech">
+          <a href='https://angular.io/' target="_blank"><img src='../../assets/images/angular.png' /></a>
+        </div>
+        <div class="icons-tech">
+          <a href='https://getbootstrap.com/' target="_blank"><img src='../../assets/images/bootstrap.png' /></a>
+        </div>
+        <div class="icons-tech">
+          <a href='https://jquery.com/' target="_blank"><img src='../../assets/images/jquery.png' /></a>
+        </div>
+        <div class="icons-tech">
+          <a href='https://www.mysql.com/' target="_blank"><img src='../../assets/images/mysql.png' /></a>
+        </div>
+        <div class="icons-tech">
+          <a href='https://www.typescriptlang.org/' target="_blank"><img src='../../assets/images/typescript.png' /></a>
+        </div>
+        <div class="icons-tech">
+          <a href='https://www.php.net/' target="_blank"><img src='../../assets/images/php.png' /></a>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Links de portafolios y acerca de Mi -->
+    <div id='links'>
+      <div class='titulos'>
+        <h2>Links</h2>
+      </div>
+      <ul>
+        <li class="links-pages"><a href='../../index.html'>Inicio</a></li>
+        <li class="links-pages"><a href='../portafolio.html'>Portafolio</a></li>
+        <li class="links-pages"><a href='../sobreMi.html'>Sobre Mi</a></li>
+      </ul>
+    </div>
+
+    <!-- Contactos Personales -->
+    <div id='contactos'>
+      <div class='titulos'>
+        <h2>Contáctame</h2>
+      </div>
+      <ul>
+        <li class="links-pages"><a href='#'>Asunción - Paraguay</a></li>
+        <li class="links-pages"><a href='#'>+595 991470681</a></li>
+        <li class="links-pages"><a href='mailTo: ricardomelida92@gmail.com'>ricardomelida92@gmail.com</a></li>
+      </ul>
+    </div>
+
+  </div>
+
+  <script src="../../assets/js/jquery-3.4.0.js"></script>
+  <script src='../../assets/js/main.js'></script>
+  <script src='../../assets/js/scroll.js'></script>
+  <script src="../../assets/js/slider.js"></script>
+  <script src="../../assets/js/waitMe.js"></script>
+  <script>
+    $('.container').waitMe({
+      effect: 'bounce'
+    });
+
+    setTimeout(() => {
+      $('.container').waitMe("hide");
+    }, 1500);
+  </script>
+</body>
+
+</html>

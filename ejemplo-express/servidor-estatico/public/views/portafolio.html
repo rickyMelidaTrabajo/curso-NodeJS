@@ -1,0 +1,128 @@
+<!DOCTYPE HTML>
+<html lang="es">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="../assets/css/styles.css" />
+  <link rel="stylesheet" href="../assets/css/portafolio.css">
+  <link rel="stylesheet" href="../assets/css/waitMe.min.css">
+  <link rel="shortcut icon" href="../assets/images/letraR.ico" type="image/x-icon">
+  <title>Portafolio</title>
+</head>
+
+<body>
+  <div class="container">
+    <header id="header-port">
+      <input type="checkbox" id="icono-menu">
+      <label for="icono-menu">
+        <img src="../assets/images/icono_menu.png" alt="icono" width="50" />
+      </label>
+    </header>
+
+    <nav id="menu">
+      <img src="../assets/images/fondo.jpg">
+      <ul>
+        <div id="menu-items">
+          <li><a href="../index.html">Inicio</a></li>
+          <li><a href="./sobreMi.html">Sobre mi</a></li>
+          <li><a href="./portafolio.html">Portafolio</a></li>
+          <li><a href="./habilidades.html">Habilidades</a></li>
+          <li><a href="./contacto.html">Contacto</a></li>
+        </div>
+      </ul>
+    </nav>
+
+    <div id="contene">
+      <div class='titulos'>
+        <h2>Portafolio</h2>
+      </div>
+    </div>
+
+    <div id="contenedor">
+
+      <div class="projects" id="port">
+        <img src="../assets/images/projects/ibpr_web/1.jpg" />
+        <div class="name-project">
+          <a href="./projects/project_1.html"> Web IBPR</a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+  <div class='clearfix'></div>
+
+  <div class="apartados">
+
+    <!--Tecnologias conocidas-->
+    <div id="tecnologias">
+      <div class='titulos'>
+        <h2>Tecnologías</h2>
+      </div>
+      <div class="iconos-tecnologia">
+        <div class="icons-tech">
+          <a href='https://angular.io/' target="_blank"><img src='../assets/images/angular.png' /></a>
+        </div>
+        <div class="icons-tech">
+          <a href='https://getbootstrap.com/' target="_blank"><img src='../assets/images/bootstrap.png' /></a>
+        </div>
+        <div class="icons-tech">
+          <a href='https://jquery.com/' target="_blank"><img src='../assets/images/jquery.png' /></a>
+        </div>
+        <div class="icons-tech">
+          <a href='https://www.mysql.com/' target="_blank"><img src='../assets/images/mysql.png' /></a>
+        </div>
+        <div class="icons-tech">
+          <a href='https://www.typescriptlang.org/' target="_blank"><img src='../assets/images/typescript.png' /></a>
+        </div>
+        <div class="icons-tech">
+          <a href='https://www.php.net/' target="_blank"><img src='../assets/images/php.png' /></a>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Links de portafolios y acerca de Mi -->
+    <div id='links'>
+      <div class='titulos'>
+        <h2>Links</h2>
+      </div>
+      <ul>
+        <li class="links-pages"><a href='../index.html'>Inicio</a></li>
+        <li class="links-pages"><a href='sobreMi.html'>Sobre Mi</a></li>
+        <li class="links-pages"><a href='portafolio.html'>Portafolio</a></li>
+
+      </ul>
+    </div>
+
+    <!-- Contactos Personales -->
+    <div id='contactos'>
+      <div class='titulos'>
+        <h2>Contáctame</h2>
+      </div>
+      <ul>
+        <li class="links-pages"><a href='#'>Asunción - Paraguay</a></li>
+        <li class="links-pages"><a href="tel:+595991470681">+595 991470681</a></li>
+        <li class="links-pages"><a href='mailTo: ricardomelida92@gmail.com'>ricardomelida92@gmail.com</a></li>
+      </ul>
+    </div>
+
+  </div>
+
+  <script src="../assets/js/jquery-3.4.0.js"></script>
+  <script src='../assets/js/main.js'></script>
+  <script src="../assets/js/scroll.js"></script>
+  <script src="../assets/js/waitMe.js"></script>
+  <script>
+    $('.container').waitMe({
+      effect: 'bounce'
+    });
+
+    setTimeout(() => {
+      $('.container').waitMe("hide");
+    }, 1500);
+  </script>
+
+</body>
+
+</html>
