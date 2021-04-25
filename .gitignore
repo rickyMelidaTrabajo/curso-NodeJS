@@ -5,3 +5,5 @@ encriptacion/node_modules
 Http/node_modules
 login/node_modules
 procesos/node_modules
+enviar-mail/node_modules
+json-web-token/node_modules
